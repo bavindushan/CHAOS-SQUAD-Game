@@ -1,0 +1,121 @@
+7. Development roadmap
+
+I would split this project into eight phases. We should not try to build everything simultaneously.
+
+Phase 1 – Project foundation
+
+Start here
+
+Create GitHub repository.
+
+Configure Vite and TypeScript.
+
+Set up Three.js.
+
+Create the first 3D scene.
+
+Add camera, lighting and ground.
+
+Deliverable: A playable 3D environment.
+
+Phase 2 – Character movement
+
+Create a simple 3D character.
+
+Add keyboard controls (WASD).
+
+Add jumping and gravity.
+
+Add collision detection.
+
+Add camera following.
+
+Add funny falling animations.
+
+Deliverable: One controllable character.
+
+Phase 3 – Physics interactions
+
+Grab and release objects.
+
+Push and pull boxes.
+
+Carry objects with teammates.
+
+Create movable platforms.
+
+Implement ragdoll-style falling.
+
+Deliverable: A fun physics prototype.
+
+Phase 4 – Multiplayer networking
+
+Set up Colyseus.
+
+Create private rooms.
+
+Generate room codes.
+
+Join and leave rooms.
+
+Synchronize player positions.
+
+Handle disconnects.
+
+Deliverable: Two to eight players in the same world.
+
+Phase 5 – First mission
+
+Create Floating Chaos Island.
+
+Add a cooperative box-delivery mission.
+
+Add a timer and mission objectives.
+
+Add success and failure conditions.
+
+Deliverable: A complete cooperative mission.
+
+Phase 6 – Game experience
+
+Lobby interface.
+
+Character customization.
+
+Emotes and sounds.
+
+Scoreboards and achievements.
+
+Crazy Challenges mode.
+
+Deliverable: A proper party game experience.
+
+Phase 7 – Testing and optimization
+
+Test with 2, 4 and 8 players.
+
+Test unstable network conditions.
+
+Fix synchronization problems.
+
+Optimize 3D assets and performance.
+
+Add basic anti-cheat validation.
+
+Deliverable: A stable multiplayer beta.
+
+Phase 8 – Deployment
+
+Build Docker images.
+
+Deploy the frontend.
+
+Deploy the multiplayer server.
+
+Configure HTTPS and WebSockets.
+
+Set up monitoring and logs.
+
+Invite friends to test.
+
+Deliverable: Public playable beta.
